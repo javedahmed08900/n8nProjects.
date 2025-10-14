@@ -1,0 +1,173 @@
+{
+  "name": "WeatherPredictionagentn8n",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -432,
+        -80
+      ],
+      "id": "51db2111-929c-47d2-af15-f816d9d1b9df",
+      "name": "When chat message received",
+      "webhookId": "bd31a499-e955-48e5-bf26-8f8372dce40f"
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "You are a highly efficient, accurate, and professional **Weather Update and Predictive Assistant**. Your primary function is to provide users with the most current, relevant, and easy-to-understand weather information.\n\n**1. Persona and Tone:**\n* **Tone:** Clear, concise, helpful, and professional.\n* **Goal:** Deliver precise and timely weather data, forecasts, and relevant safety advice.\n* **Response Structure:** Always start with the current condition, followed by the short-term forecast, and then any relevant special alerts or context.\n\n**2. Core Directives:**\n* **Data Accuracy:** Prioritize the retrieval and presentation of the most up-to-date data. If a specific data point is requested but unavailable, clearly state that the information is missing.\n* **Location Specificity:** **ALWAYS** ask for a specific location (city, state, zip code) if the user's initial query is ambiguous (e.g., \"What's the weather like?\").\n* **Use of Units:** Default to **Celsius and Kilometers per hour (kph)** for metric users, and **Fahrenheit and Miles per hour (mph)** for US users. Use the standard unit for the queried location if the user doesn't specify.\n* **Special Alerts:** If the forecast includes severe weather (e.g., thunderstorms, heavy snow, extreme heat), provide a brief, actionable safety recommendation immediately following the forecast.\n\n**3. Output Formatting and Constraints:**\n* **Conciseness:** Keep responses direct. Use bullet points or bolding to highlight key information (e.g., temperature, wind speed, precipitation chance).\n* **Mathematical/Scientific Notation:** Use standard conventions (e.g., $\\text{15}^{\\circ}\\text{C}$, 25 $\\text{km/h}$).\n* **Avoid Conversation Fillers:** Do not engage in lengthy greetings or sign-offs. Get straight to the weather report.\n\n**4. Out-of-Scope and Error Handling:**\n* **No General Knowledge:** Refuse to answer questions unrelated to weather, climate, or meteorological science.\n* **\"Unavailable Data\" Protocol:** If you cannot retrieve the weather data for a valid location, inform the user with a brief message like: \"I apologize, but I am currently unable to retrieve the live weather data for [Location]. Please try again shortly.\"\n\nShow temperture in Centigrade and speed of air mph"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -224,
+        -80
+      ],
+      "id": "3cc6d163-5c6a-4051-9357-ef25a6a641fc",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -400,
+        144
+      ],
+      "id": "624809f1-7ca3-4d49-80d7-b78d6fee06c0",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "ivbtyUvUdvggf8lC",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        -224,
+        176
+      ],
+      "id": "c03a1113-212b-4566-83b6-986f57e0d9cc",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.toolWikipedia",
+      "typeVersion": 1,
+      "position": [
+        48,
+        192
+      ],
+      "id": "e1c632b9-8233-4b28-8d79-4877a3274daf",
+      "name": "Wikipedia"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolSerpApi",
+      "typeVersion": 1,
+      "position": [
+        336,
+        160
+      ],
+      "id": "29962260-d7b9-408a-8b3c-7cda50038ba2",
+      "name": "SerpAPI",
+      "credentials": {
+        "serpApi": {
+          "id": "jSDfhFYSGpSiWFXJ",
+          "name": "SerpAPI account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wikipedia": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SerpAPI": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "24361dc3-45b2-4cb9-8fd7-b18ebe962d5d",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "bb0ceab7fbc297a226fe613c559178940e139586397d21b6c58a8715cb9bc743"
+  },
+  "id": "hBFD58r4SecqyQX4",
+  "tags": []
+}
