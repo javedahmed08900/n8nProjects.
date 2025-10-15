@@ -82,8 +82,8 @@ Our Weather Prediction Agent is an AI-powered system that provides accurate, rea
 
 
 
-# **VIDEOS OF PROJECTS**
-https://github.com/javedahmed08900/n8nProjects..git
+# **VIDEOS LINK OF PROJECTS**
+https://youtu.be/a1HBFD4ujwQ
 
 
 
