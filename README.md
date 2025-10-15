@@ -42,7 +42,7 @@ This Agent is an AI based virtual assistant designed to make the process of book
 
 -  **Goal:** Eliminate waiting times, reduce communication friction and enhance patient convenience with real time responses.
 
-# **KeyFeatures**
+# **Key Features**
 
 - **Instant Appointment Booking:** Book doctor appointments immediately through a simple text message.
 
@@ -70,7 +70,7 @@ Our Weather Prediction Agent is an AI-powered system that provides accurate, rea
 
 - **Interface:** Fully automated chat experience powered by n8n workflow orchestration.
 
-# **KeyFeatures**
+# **Key Features**
 
 - **Real-Time Weather Updates:** Provides instant temperature, humidity and weather conditions for any location.
 
@@ -87,7 +87,7 @@ Our Weather Prediction Agent is an AI-powered system that provides accurate, rea
 # Youtube link
 https://youtu.be/ZP8gd24a21s
 
-# Drive link
+# Google Drive link
 https://drive.google.com/file/d/1DRc0fV3BPwHc-95rFtGw80NdFQokn74P/view?usp=sharing
 
 
