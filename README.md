@@ -79,3 +79,11 @@ Our Weather Prediction Agent is an AI-powered system that provides accurate, rea
 - **Serp API Integration:** Fetches live weather data from reliable web sources.
 
 - **Wikipedia Integration:** Enhances responses with additional contextual information (e.g., city details, geography).
+
+
+
+# **VIDEOS OF PROJECTS**
+https://github.com/javedahmed08900/n8nProjects..git
+
+
+
