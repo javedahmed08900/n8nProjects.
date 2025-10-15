@@ -35,10 +35,10 @@ I built a RAG (Retrieval-Augmented Generation) AI assistant that answers questio
 # **PROJECT NO. 02**
 # **AI Agent For Doctor Appointments**
 
-This Agent is an AI based virtual assistant designed to make the process of booking doctor appointments effortless and efficient. Instead of calling clinics orwaiting for manual confirmations, users can manage everything instantly througha simple chat message.
+This Agent is an AI based virtual assistant designed to make the process of booking doctor appointments effortless and efficient. Instead of calling clinics or waiting for manual confirmations, users can manage everything instantly through a simple chat message.
 
 # **Overview**
-- **Purpose:** Simplify and automate the process of scheduling,rescheduling, and canceling doctor appointments.
+- **Purpose:** Simplify and automate the process of scheduling, rescheduling and canceling doctor appointments.
 
 -  **Goal:** Eliminate waiting times, reduce communication friction, and enhance patient convenience with real time responses.
 
@@ -46,11 +46,11 @@ This Agent is an AI based virtual assistant designed to make the process of book
 
 - **Instant Appointment Booking:** Book doctor appointments immediately through a simple text message.
 
-- **Effortless Rescheduling:** Change your appointment date or timeat any moment, and get instant confirmation of the update.
+- **Effortless Rescheduling:** Change your appointment date or time at any moment and get instant confirmation of the update.
 
 - **Quick Cancellations:** Cancel your appointments easily through a single command, without needing to contact the clinic directly.
 
-- **Real-Time Updates and Notifications:** Provides instant responses, confirmations, and reminders keeping users fully informed throughout the process.
+- **Real-Time Updates and Notifications:** Provides instant responses, confirmations and reminders keeping users fully informed throughout the process.
 
 - **Smart Availability Checking:** Automatically checks doctor availability and informs you if a specific slot or day is unavailable.
 
@@ -60,7 +60,7 @@ This Agent is an AI based virtual assistant designed to make the process of book
 # **PROJECT NO. 03**
 # **Weather Prediction AI Agent**
 
-Our Weather Prediction Agent is an AI-powered system that provides accurate, real timeweather updates and forecasts through a simple chat interface. Built using n8n for workflow automation, the agent integrates multiple tools and APIs todeliver instant, context-aware weather insights.
+Our Weather Prediction Agent is an AI-powered system that provides accurate, real time weather updates and forecasts through a simple chat interface.
 
 # **Overview**
 
@@ -72,7 +72,7 @@ Our Weather Prediction Agent is an AI-powered system that provides accurate, rea
 
 # **KeyFeatures**
 
-- **Real-Time Weather Updates:** Provides instant temperature,humidity, and weather conditions for any location.
+- **Real-Time Weather Updates:** Provides instant temperature, humidity and weather conditions for any location.
 
 - **Location-Based Forecasting:** Detects user’s city or region and delivers relevant weather data automatically.
 
