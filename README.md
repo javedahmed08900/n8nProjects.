@@ -35,7 +35,7 @@ I built a RAG (Retrieval-Augmented Generation) AI assistant that answers questio
 # **PROJECT NO. 02**
 # **AI Agent For Doctor Appointments**
 
-My AI Agentis an AI based virtual assistant designed to make the process of booking doctor appointments effortless and efficient. Instead of calling clinics orwaiting for manual confirmations, users can manage everything instantly througha simple chat message.
+This Agent is an AI based virtual assistant designed to make the process of booking doctor appointments effortless and efficient. Instead of calling clinics orwaiting for manual confirmations, users can manage everything instantly througha simple chat message.
 
 # **Overview**
 - **Purpose:** Simplify and automate the process of scheduling,rescheduling, and canceling doctor appointments.
