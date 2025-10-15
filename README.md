@@ -1,9 +1,9 @@
 # **PROJECT NO. 01**
-# **WhatsAppRAG AI Agent with n8n**
+# **WhatsApp RAG AI Agent**
 
 I built aRAG (Retrieval-Augmented Generation) AI assistant that answers questions aboutMicrosoft's 2024 Annual Report directly through WhatsApp.
 
-# **What ThisProject Does**
+# **What This Project Does**
 
 - **RAG System:** Uses Retrieval-Augmented Generation to provide accurateanswers from the Microsoft 2024 Annual Report.
 
@@ -33,7 +33,7 @@ I built aRAG (Retrieval-Augmented Generation) AI assistant that answers question
 
 
 # **PROJECT NO. 02**
-# **AI Agent For Doctor Appointment.**
+# **AI Agent For Doctor Appointment**
 
 My AI Agentis an AI-driven virtual assistant designed to make the process of bookingdoctor appointments effortless and efficient. Instead of calling clinics orwaiting for manual confirmations, users can manage everything instantly througha simple chat message.
 
@@ -58,7 +58,7 @@ My AI Agentis an AI-driven virtual assistant designed to make the process of boo
 
 
 # **PROJECT NO. 03**
-# **AI Weather Prediction Agent**
+# **Weather Prediction AI Agent**
 
 Our WeatherPrediction Agent is an AI-powered system that provides accurate, real-timeweather updates and forecasts through a simple chat interface. Built using n8nfor workflow automation, the agent integrates multiple tools and APIs todeliver instant, context-aware weather insights.
 
