@@ -40,7 +40,7 @@ This Agent is an AI based virtual assistant designed to make the process of book
 # **Overview**
 - **Purpose:** Simplify and automate the process of scheduling, rescheduling and canceling doctor appointments.
 
--  **Goal:** Eliminate waiting times, reduce communication friction, and enhance patient convenience with real time responses.
+-  **Goal:** Eliminate waiting times, reduce communication friction and enhance patient convenience with real time responses.
 
 # **KeyFeatures**
 
