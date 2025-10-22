@@ -84,7 +84,7 @@ Our Weather Prediction Agent is an AI-powered system that provides accurate, rea
 
 
 # **PROJECT NO. 04**
-# **Inventory Manager AI Agent**
+# **Inventory Management AI Agent**
 
 # **Overview**
 This project is an automation workflow built in n8n that helps shop owners manage their inventory through WhatsApp messages using either text or voice commands.
