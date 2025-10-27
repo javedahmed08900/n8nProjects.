@@ -12,8 +12,9 @@ My AI Agent is an AI-driven virtual assistant designed to make the process of bo
 - **Instant Appointment Booking:** Book doctor appointments immediately through a simple text message.
 - **Effortless Rescheduling:** Change your appointment date or time at any moment, and get instant confirmation of the update.
 - **Quick Cancellations:** Cancel your appointments easily through a single command, without needing to contact the clinic directly.
-- **Real-Time Updates and Notifications:** Provides instant responses, confirmations, and reminders—keeping users fully informed throughout the process.
+- **Real-Time Updates and Notifications:** Provides instant responses, confirmations, and reminders and keeping users fully informed throughout the process.
 - **Smart Availability Checking:** Automatically checks doctor availability and informs you if a specific slot or day is unavailable.
+
 
 
 
