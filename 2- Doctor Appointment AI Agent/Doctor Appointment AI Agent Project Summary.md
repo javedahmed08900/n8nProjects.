@@ -1,17 +1,16 @@
-﻿**Project Summary   Doctor Appointment AI Agent (n8n Workflow)**
+﻿**Doctor Appointment AI Agent (n8n Workflow)**
 
 **Overview**
 
-The  Doctor  Appointment  AI  Agent,  developed  on  the  n8n  automation  platform,  is  an intelligent  WhatsApp-based  assistant  that  automates  the  entire  doctor  appointment booking process. The system combines AI-powered conversation flow, Google Sheets database  integration,  and  payment  handling  via  Stripe  or  Cash,  enabling  a  seamless digital clinic experience for patients.
+The  Doctor  Appointment  AI  Agent,  developed  on  the  n8n  automation  platform,  is  an intelligent  WhatsApp-based  assistant  that  automates  the  entire  doctor  appointment booking process. The system combines AI-powered conversation flow, Google Sheets database  integration and enabling  a  seamless digital clinic experience for patients.
 
 **Core Components**
 
 - Platform: n8n (No-Code Automation Tool)
-- AI Model: Google Gemini (PaLM API)
+- AI Model: Google Gemini
 - Database: Google Sheets (Patients, Appointments, Config)
 - Interface: WhatsApp (for patient communication)
-- Payment Integration: Stripe / Cash at Clinic
-- Memory Engine: n8n Memory Buffer Window (for conversational continuity)
+- Memory Engine: Used n8n Simple Memory but it may be customized
 
 **Objective**
 
@@ -20,25 +19,22 @@ To design an intelligent and user-friendly WhatsApp agent that efficiently manag
 **Key Features**
 
 - Fully automated doctor appointment system on WhatsApp.
-- Smart memory tracking that remembers each user s progress in conversation.
-- Dynamic slot availability based on date, time, and doctor s schedule.
+- Smart memory tracking that remembers each users progress in conversation.
+- Dynamic slot availability based on date, time and doctors schedule.
 - Google Sheets integration for storing and retrieving patient and appointment data.
-- Payment flexibility   supports both Stripe online payments and Cash at Clinic.
-- Polite, WhatsApp-friendly AI tone for enhanced user engagement.
+- Payment flexibility supports both online and Cash at Clinic. We can customize for online payment as well.
+- Polite WhatsApp-friendly AI tone for enhanced user engagement.
 - Automatic confirmation, reschedule, and cancellation flows.
 
 **Workflow Process**
 
-1. Trigger: The system activates when a WhatsApp message is received from a user.
-1. Greeting: The AI welcomes the user and displays a menu of options:
+1. Trigger:The system activates when a WhatsApp message is received from a user.
+2. Greeting: The AI welcomes the user and displays a menu of options:
 
-1nn New Booking
-
-2nn My Upcoming Bookings
-
-3nn Reschedule Booking
-
-4nn Cancel Booking
+ -  New Booking
+ -  My Upcoming Bookings
+ -  Reschedule Booking
+ -  Cancel Booking
 
 3. Patient Registration:
    1. If the user is new, the agent collects name, age, and gender, and stores details in Google Sheets.
@@ -51,8 +47,8 @@ To design an intelligent and user-friendly WhatsApp agent that efficiently manag
    1. The  AI  fetches  all  upcoming  appointments  and  allows  the  user  to  select  one  for rescheduling.
    1. It provides available dates and times, then updates the appointment details.
 3. Cancellation Flow:
-- The user can view upcoming appointments and choose one to cancel.
-- The AI updates the record in Google Sheets and confirms the cancellation.
+   1. The user can view upcoming appointments and choose one to cancel.
+   1. The AI updates the record in Google Sheets and confirms the cancellation.
 
 **Technical Nodes Used in Workflow**
 
@@ -70,10 +66,11 @@ To design an intelligent and user-friendly WhatsApp agent that efficiently manag
 - Doctors   Manage multiple patients efficiently with zero manual scheduling.
 - Patients   Book, reschedule, or cancel appointments instantly through WhatsApp.
 - Scalability   Easily customizable for multiple doctors or clinic branches.
-- Operational Efficiency   Reduces workload, errors, and waiting time.
+
 
 **Outcome**
 
 This project demonstrates the potential of AI-driven automation in healthcare operations, combining  natural  language  processing,  no-code  workflow  design,  and  real-time  data management into a single seamless experience.
 
-**Created by: Javed Ahmed**
+
+
