@@ -2,7 +2,7 @@
 
 **Overview**
 
-The RAG AI Agent, developed using the n8n automation platform, is an intelligent system designed to provide accurate, context-aware answers from large documents. The  primary  objective  of  this  project  is  to  create  an  automated  assistant  capable  of answering  user  queries  based  on  the  content  of  the  Microsoft  2024  Annual  Report, providing detailed and data-backed responses in real time through WhatsApp.
+The RAG AI Agent, developed using the n8n automation platform, is an intelligent system designed to provide accurate, context-aware answers from large documents. This project integrates Retrieval-Augmented Generation (RAG) architecture with Google Gemini and Pinecone Vector Database to deliver precise information retrieval and conversational AI capabilities.
 
 **Core Components**
 
@@ -12,6 +12,8 @@ The RAG AI Agent, developed using the n8n automation platform, is an intelligent
 - Data Source: Microsoft 2024 Annual Report (PDF stored on Google Drive)
 - User Interface: WhatsApp (for queries and AI responses)
 
+**Objective**
+The  primary  objective  of  this  project  is  to  create  an  automated  assistant  capable  of answering  user  queries  based  on  the  content  of  the  Microsoft  2024  Annual  Report, providing detailed and data-backed responses in real time through WhatsApp.
 
 **Key Features**
 
