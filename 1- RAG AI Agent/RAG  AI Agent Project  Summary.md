@@ -13,6 +13,7 @@ The RAG AI Agent, developed using the n8n automation platform, is an intelligent
 - User Interface: WhatsApp (for queries and AI responses)
 
 **Objective**
+
 The  primary  objective  of  this  project  is  to  create  an  automated  assistant  capable  of answering  user  queries  based  on  the  content  of  the  Microsoft  2024  Annual  Report, providing detailed and data-backed responses in real time through WhatsApp.
 
 **Key Features**
@@ -23,7 +24,7 @@ The  primary  objective  of  this  project  is  to  create  an  automated  assis
 - Ensures accurate, context-based answers by leveraging document embeddings stored in Pinecone.
 - Fully customizable   can be adapted for any document or dataset.
 
-  **Workflow Process**
+**Workflow Process**
 
 1. **Trigger:** The workflow starts when a WhatsApp message is received from the user.
 1. **Data Retrieval:** The system downloads the Microsoft Annual Report from Google Drive.
@@ -33,7 +34,7 @@ The  primary  objective  of  this  project  is  to  create  an  automated  assis
 6. **Response Generation:** The Gemini model crafts a clear, detailed response using the retrieved content.
 6. **Delivery:** The AI s response is sent back to the user on WhatsApp automatically.
 
-   **Technical Nodes Used in Workflow**
+**Technical Nodes Used in Workflow**
 
 - Manual Trigger   Used for testing and manual execution.
 - Google Drive Node   Downloads the document file.
@@ -49,6 +50,7 @@ The  primary  objective  of  this  project  is  to  create  an  automated  assis
 - Customer Support Bots   Provide instant document-based responses.
 - Educational Tools   Summarize and explain academic content interactively.
 - Data Accessibility   Makes complex reports accessible to non-technical users through WhatsApp.
+
 
 
 
