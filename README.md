@@ -33,7 +33,7 @@ I built a RAG (Retrieval-Augmented Generation) AI assistant that answers questio
 
 
 # **PROJECT NO. 02**
-# **AI Agent For Doctor Appointments**
+# **Doctor Appointments AI Agent**
 
 This Agent is an AI based virtual assistant designed to make the process of booking doctor appointments effortless and efficient. Instead of calling clinics or waiting for manual confirmations, users can manage everything instantly through a simple chat message.
 
