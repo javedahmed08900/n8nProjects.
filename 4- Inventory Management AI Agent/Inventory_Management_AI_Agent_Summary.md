@@ -35,7 +35,7 @@ The primary objective of this project is to simplify inventory management using 
 5. **Google Sheets Update:** Automatically appends or modifies stock data.
 6. **Message Response:** AI sends a structured confirmation message through WhatsApp.
 
-# **Technical Components Used in Workflow**
+# **Technical Nodes Used in Workflow**
 
 -  **WhatsApp Trigger Node:** Captures incoming messages.  
 -  **Switch Node:** Routes text and audio inputs.   
@@ -56,4 +56,5 @@ The primary objective of this project is to simplify inventory management using 
 # **Outcome**
 
 The Inventory Management AI Agent successfully demonstrates how AI, automation, and voice processing can work together to create a fully functional conversational inventory assistant. It allows users to manage products hands-free while maintaining synchronized data in real time. This project highlights the power of no-code AI automation in n8n for building intelligent business management systems that save time, reduce effort, and enhance productivity.
+
 
