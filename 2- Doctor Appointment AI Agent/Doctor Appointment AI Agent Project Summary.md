@@ -4,17 +4,18 @@
 
 The  Doctor  Appointment  AI  Agent,  developed  on  the  n8n  automation  platform,  is  an intelligent  WhatsApp-based  assistant  that  automates  the  entire  doctor  appointment booking process. The system combines AI-powered conversation flow, Google Sheets database  integration and enabling  a  seamless digital clinic experience for patients.
 
-# **Core Components**
-
-- Platform: n8n (No-Code Automation Tool)
-- AI Model: Google Gemini
-- Database: Google Sheets (Patients, Appointments, Config)
-- Interface: WhatsApp (for patient communication)
-- Memory Engine: Used n8n Simple Memory but it may be customized
-
 # **Objective**
 
-To design an intelligent and user-friendly WhatsApp agent that efficiently manages doctor appointment  scheduling,  rescheduling,  and  cancellations    reducing  manual administrative work and improving patient experience.
+To design an intelligent and user-friendly WhatsApp agent that efficiently manages doctor appointment  scheduling,  rescheduling,  and  cancellations reducing  manual administrative work and improving patient experience.
+
+# **Core Components**
+
+- **Platform:** n8n (No-Code Automation Tool)
+- **AI Model:** Google Gemini
+- **Database:** Google Sheets (Patients, Appointments, Config)
+- **Interface:** WhatsApp (for patient communication)
+- **Memory Engine:** Used n8n Simple Memory but it may be customized
+
 
 # **Key Features**
 
@@ -72,6 +73,7 @@ To design an intelligent and user-friendly WhatsApp agent that efficiently manag
 # **Outcome**
 
 This project demonstrates the potential of AI-driven automation in healthcare operations, combining  natural  language  processing,  no-code  workflow  design,  and  real-time  data management into a single seamless experience.
+
 
 
 
