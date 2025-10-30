@@ -4,17 +4,19 @@
 
 The RAG AI Agent, developed using the n8n automation platform, is an intelligent system designed to provide accurate, context-aware answers from large documents. This project integrates Retrieval-Augmented Generation (RAG) architecture with Google Gemini and Pinecone Vector Database to deliver precise information retrieval and conversational AI capabilities.
 
-# **Core Components**
-
-- Platform: n8n (No-Code Workflow Automation)
-- AI Model: Google Gemini 
-- Vector Database: Pinecone
-- Data Source: Microsoft 2024 Annual Report (PDF stored on Google Drive)
-- User Interface: WhatsApp (for queries and AI responses)
 
 # **Objective**
 
 The  primary  objective  of  this  project  is  to  create  an  automated  assistant  capable  of answering  user  queries  based  on  the  content  of  the  Microsoft  2024  Annual  Report, providing detailed and data-backed responses in real time through WhatsApp.
+
+# **Core Components**
+
+- **Platform:** n8n (No-Code Workflow Automation)
+- **AI Model:** Google Gemini 
+- **Vector Database:** Pinecone
+- **Data Source:** Microsoft 2024 Annual Report (PDF stored on Google Drive)
+- **User Interface:** WhatsApp (for queries and AI responses)
+
 
 # **Key Features**
 
@@ -50,6 +52,7 @@ The  primary  objective  of  this  project  is  to  create  an  automated  assis
 - Customer Support Bots   Provide instant document-based responses.
 - Educational Tools   Summarize and explain academic content interactively.
 - Data Accessibility   Makes complex reports accessible to non-technical users through WhatsApp.
+
 
 
 
