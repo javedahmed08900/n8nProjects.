@@ -4,6 +4,11 @@
 
 The Weather Prediction Agent is an AI-powered automation workflow developed in n8n that delivers real-time weather updates, short-term forecasts, and safety alerts through an interactive chat interface. It integrates OpenAI GPT-4.1-mini, SerpAPI, and Wikipedia tools to ensure precise, context-aware, and location-specific weather reports. The assistant intelligently interprets user queries and responds in a structured, professional, and concise manner.
 
+
+# **Objective**
+
+The main objective of the Weather Prediction Agent project is to develop an intelligent, AI-based system that simplifies access to accurate and timely weather information. The assistant aims to enhance user experience by delivering location-specific forecasts, actionable safety advice, and reliable meteorological insights. By combining AI reasoning with real-time data retrieval, the project demonstrates how automation can make complex information easily understandable and accessible through natural conversation.
+
 # **Core Components**
 
 -  Platform: n8n (No-Code Automation Tool)   
@@ -11,9 +16,6 @@ The Weather Prediction Agent is an AI-powered automation workflow developed in n
 -  SerpAPI & Wikipedia Integrations for live weather data and factual enhancement. 
 -  Used Simple Memory, It can be customized.
 
-# **Objective**
-
-The main objective of the Weather Prediction Agent project is to develop an intelligent, AI-based system that simplifies access to accurate and timely weather information. The assistant aims to enhance user experience by delivering location-specific forecasts, actionable safety advice, and reliable meteorological insights. By combining AI reasoning with real-time data retrieval, the project demonstrates how automation can make complex information easily understandable and accessible through natural conversation.
 
 # **Key Features**
 
@@ -52,4 +54,5 @@ The main objective of the Weather Prediction Agent project is to develop an inte
 # **Outcome**
 
 The Weather Prediction Agent successfully showcases how AI, automation, and real-time data integration can be combined within n8n to create a fully functional, conversational weather assistant. The system delivers accurate information with human-like interaction, offering an efficient and professional user experience. This project stands as a practical example of how no-code AI workflows can power intelligent digital solutions for both personal and enterprise applications.
+
 
