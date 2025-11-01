@@ -100,10 +100,6 @@ The system eliminates the need for manual data entry or separate stock managemen
 
 
 
-# **VIDEOS LINK OF MY PROJECTS**
-# Google Drive link
-https://drive.google.com/file/d/1DRc0fV3BPwHc-95rFtGw80NdFQokn74P/view?usp=sharing
-# Youtube link
-https://youtu.be/ZP8gd24a21s
+
 
 
