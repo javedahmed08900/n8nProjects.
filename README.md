@@ -198,8 +198,7 @@ The Weather Prediction Agent successfully showcases how AI, automation, and real
 
 
 # **PROJECT NO. 04**
-
-﻿# **Inventory Management AI Agent**
+# ﻿**Inventory Management AI Agent**
 
 # **Overview**
 
