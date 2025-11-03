@@ -137,7 +137,7 @@ This project demonstrates the potential of AI-driven automation in healthcare op
 
 
 # **PROJECT NO. 03**
-﻿# **Weather Prediction AI Agent**
+# ﻿**Weather Prediction AI Agent**
 
 # **Overview**
 
@@ -198,6 +198,7 @@ The Weather Prediction Agent successfully showcases how AI, automation, and real
 
 
 # **PROJECT NO. 04**
+
 ﻿# **Inventory Management AI Agent**
 
 # **Overview**
