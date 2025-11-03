@@ -55,7 +55,7 @@ The  primary  objective  of  this  project  is  to  create  an  automated  assis
 - Data Accessibility   Makes complex reports accessible to non-technical users through WhatsApp.
 
 # **Video Presentation:**
-**You can watch the video demonstration of this project inside its respective folder**
+**You can watch the video demonstration of this project inside its respective folder.**
 
 
 
@@ -139,7 +139,7 @@ To design an intelligent and user-friendly WhatsApp agent that efficiently manag
 This project demonstrates the potential of AI-driven automation in healthcare operations, combining  natural  language  processing,  no-code  workflow  design,  and  real-time  data management into a single seamless experience.
 
 # **Video Presentation:**
-**You can watch the video demonstration of this project inside its respective folder**
+**You can watch the video demonstration of this project inside its respective folder.**
 
 
 # **PROJECT NO. 03**
@@ -201,7 +201,7 @@ The main objective of the Weather Prediction Agent project is to develop an inte
 The Weather Prediction Agent successfully showcases how AI, automation, and real-time data integration can be combined within n8n to create a fully functional, conversational weather assistant. The system delivers accurate information with human-like interaction, offering an efficient and professional user experience. This project stands as a practical example of how no-code AI workflows can power intelligent digital solutions for both personal and enterprise applications.
 
 # **Video Presentation:**
-**You can watch the video demonstration of this project inside its respective folder**
+**You can watch the video demonstration of this project inside its respective folder.**
 
 
 # **PROJECT NO. 04**
@@ -266,7 +266,7 @@ The Inventory Management AI Agent successfully demonstrates how AI, automation, 
 
 
 # **Video Presentation:**
-**You can watch the video demonstration of this project inside its respective folder**
+**You can watch the video demonstration of this project inside its respective folder.**
 
 
 
